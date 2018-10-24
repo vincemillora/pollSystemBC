@@ -1,0 +1,4 @@
+npm run react-dev
+npm run server-dev
+
+localhost:8080
