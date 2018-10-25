@@ -1,44 +1,39 @@
 {
-  "name": "pollsystem",
-  "version": "1.0.0",
-  "description": "A Poll Dapp",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack -d --watch",
-    "start": "node ./server/index.js",
-    "build": "webpack -p",
-    "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon server/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:vincemillora/pollSystemBC.git"
-  },
-  "keywords": [
-    "poll"
-  ],
-  "author": "Vince and Markus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vincemillora/hackathonBC/issues"
-  },
-  "homepage": "https://github.com/vincemillora/hackathonBC#readme",
+  "name": "ethereum-poll",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "css-loader": "^1.0.0",
+    "json-loader": "^0.5.7",
     "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.22.2",
     "react": "^16.5.2",
+    "react-datepicker": "^1.7.0",
+    "react-day-picker": "^7.2.4",
     "react-dom": "^16.5.2",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
+    "react-moment": "^0.8.2",
+    "react-scripts": "2.0.5",
     "react-sweet-progress": "^1.1.2",
-    "webpack": "^4.22.0"
+    "style-loader": "^0.23.1",
+    "web3": "^0.20.0"
   },
-  "devDependencies": {
-    "webpack-cli": "^3.1.2"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
